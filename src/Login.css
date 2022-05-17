@@ -1,0 +1,31 @@
+.login{
+    background-color: var(--slack-color);
+    height: 100vh;
+    
+}
+.login__container{
+
+    padding-top: 50px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    text-align: center;
+}
+.login__container>h1{
+    color: white;
+    margin-top: 15px;
+}
+.login__container>p{
+    color: rgb(180, 175, 175);
+    margin-top: 10px;
+}
+.login__container>button{
+    background-color: #0a8d48 !important;
+    margin-top: 20px;
+    color: white;
+}
+.login__container>img{
+    height: 300px;
+    object-fit: contain;
+    width: 300px;
+    
+
+}
